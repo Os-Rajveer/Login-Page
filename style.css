@@ -111,3 +111,16 @@ legend{
     color: rgb(168, 168, 168);
     background-color: white;
 }
+#log:hover{
+    background-color:#01559e;
+}
+#google:hover{
+    background-color: rgb(220, 220, 220);
+    color: rgb(120, 120, 120);
+}
+#facebook:hover{
+    background-color: #32508c;
+}
+.link:hover{
+    text-decoration: underline;
+}
