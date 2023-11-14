@@ -10,7 +10,7 @@ main{
     background-color: white;
     min-height: 85vh;
     margin: auto;
-    margin-top: 45px;
+    margin-top: 7.5vh;
     border: 1px solid black;
     border-radius: 15px;
     max-height: fit-content;
@@ -24,6 +24,7 @@ legend{
     font-size: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
+    width: 100%;
 }
 
 .input{
@@ -124,4 +125,24 @@ legend{
 }
 .link:hover{
     text-decoration: underline;
+}
+@media only screen and (max-width:576px) {
+    main{
+        margin-top: 15vh;
+        min-height: 60vh;
+        min-width: 70vw;
+    }
+}
+@media only screen and (max-width:768px) and (min-width:576px) {
+    main{
+        margin-top: 15vh;
+        min-height: 60vh;
+        min-width: 50vw;
+    }
+}
+@media only screen and (min-width:1380px) {
+    main{
+        margin-top: 15vh;
+        min-height: 60vh;
+    }
 }
