@@ -6,11 +6,12 @@ body{
     background-color: #4071F4;
 }
 main{
+    padding: 10px;
     min-width: 30vw;
     background-color: white;
-    min-height: 85vh;
+    min-height: 80vh;
     margin: auto;
-    margin-top: 7.5vh;
+    margin-top: 10vh;
     border: 1px solid black;
     border-radius: 15px;
     max-height: fit-content;
